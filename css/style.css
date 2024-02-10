@@ -1,0 +1,26 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+.header .nav__list {
+  display: flex;
+  gap: 33px;
+}
+.header .nav__link {
+  color: #69707D;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}/*# sourceMappingURL=style.css.map */
