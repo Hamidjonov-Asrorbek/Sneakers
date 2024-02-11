@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 28px;
+  padding-bottom: 34px;
 }
 .header-left {
   display: flex;
@@ -23,4 +25,123 @@
   display: flex;
   align-items: center;
   gap: 46px;
+}
+.hero-container {
+  padding: 90px 47px 132px 48px;
+  display: flex;
+  gap: 125px;
+}
+.hero__img {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.hero__images {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__text {
+  margin-top: 62px;
+}
+.hero__sub-title {
+  color: rgb(255, 126, 27);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.hero__title {
+  color: rgb(29, 32, 38);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.hero__desc {
+  color: rgb(105, 112, 125);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.hero .price {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 32px;
+}
+.hero .main-price {
+  display: flex;
+  gap: 23px;
+}
+.hero .main-price__title {
+  color: rgb(29, 32, 38);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.hero .main-price__desc {
+  color: rgb(255, 126, 27);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 7px 11px 0 8px;
+  border-radius: 6px;
+  background: rgb(255, 238, 226);
+}
+.hero .del-price {
+  color: rgb(182, 188, 200);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration-line: line-through;
+}
+.hero__cart {
+  display: flex;
+  gap: 16px;
+}
+.hero .count {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+  padding: 18px 17px;
+  border-radius: 10px;
+  background: rgb(246, 248, 253);
+}
+.hero .number {
+  color: rgb(29, 32, 38);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.hero__cart__btn {
+  padding: 18px 77px;
+  box-shadow: 0px 20px 50px -20px rgb(255, 126, 27);
+  background: rgb(255, 126, 27);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  gap: 16px;
 }/*# sourceMappingURL=style.css.map */

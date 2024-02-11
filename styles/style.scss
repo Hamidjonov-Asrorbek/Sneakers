@@ -3,6 +3,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 28px;
+        padding-bottom: 34px;
     }
     &-left {
         display: flex;
@@ -30,5 +32,134 @@
         gap: 46px;
     }
     &__shape {
+    }
+}
+// *****************************
+
+// Hero
+
+.hero {
+    &-container {
+        padding: 90px 47px 132px 48px;
+        display: flex;
+        gap: 125px;
+        // justify-content: space-between;
+    }
+    &__img {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    &__images {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        margin-top: 62px;
+    }
+    &__sub-title {
+        color: rgb(255, 126, 27);
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 13px;
+        letter-spacing: 2px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    &__title {
+        color: rgb(29, 32, 38);
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    &__desc {
+        color: rgb(105, 112, 125);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 24px;
+    }
+    .price {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin-bottom: 32px;
+    }
+    .main-price {
+        display: flex;
+        gap: 23px;
+    }
+    .main-price__title {
+        color: rgb(29, 32, 38);
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    .main-price__desc {
+        color: rgb(255, 126, 27);
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding: 7px 11px 0 8px;
+        border-radius: 6px;
+        background: rgb(255, 238, 226);
+    }
+    .del-price {
+        color: rgb(182, 188, 200);
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        text-decoration-line: line-through;
+    }
+    &__cart {
+        display: flex;
+        gap: 16px;
+    }
+    .count {
+        display: flex;
+        align-items: center;
+        column-gap: 45px;
+        padding: 18px 17px;
+        border-radius: 10px;
+        background: rgb(246, 248, 253);
+    }
+    .plus {
+    }
+    .number {
+        color: rgb(29, 32, 38);
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .minus {
+    }
+    &__cart__btn {
+        padding: 18px 77px;
+        box-shadow: 0px 20px 50px -20px rgb(255, 126, 27);
+        background: rgb(255, 126, 27);
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+        display: flex;
+        gap: 16px;
     }
 }
