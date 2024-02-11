@@ -14,6 +14,21 @@
   display: flex;
   gap: 33px;
 }
+.header .nav__item {
+  position: relative;
+}
+.header .nav__item::before {
+  content: " ";
+  width: 0%;
+  height: 4px;
+  position: absolute;
+  background: rgb(255, 126, 27);
+  bottom: -20px;
+  transition: all 0.4s linear;
+}
+.header .nav__item:hover::before {
+  width: 100%;
+}
 .header .nav__link {
   color: #69707D;
   font-size: 15px;
@@ -39,6 +54,34 @@
 .hero__images {
   display: flex;
   justify-content: space-between;
+}
+.hero__images__img1 {
+  transform: scale(1);
+  transition: all 0.3s linear;
+}
+.hero__images__img1:hover {
+  transform: scale(1.1);
+}
+.hero__images__img2 {
+  transform: scale(1);
+  transition: all 0.3s linear;
+}
+.hero__images__img2:hover {
+  transform: scale(1.1);
+}
+.hero__images__img3 {
+  transform: scale(1);
+  transition: all 0.3s linear;
+}
+.hero__images__img3:hover {
+  transform: scale(1.1);
+}
+.hero__images__img4 {
+  transform: scale(1);
+  transition: all 0.3s linear;
+}
+.hero__images__img4:hover {
+  transform: scale(1.1);
 }
 .hero__text {
   margin-top: 62px;
@@ -122,6 +165,9 @@
   border-radius: 10px;
   background: rgb(246, 248, 253);
 }
+.hero .plus {
+  cursor: pointer;
+}
 .hero .number {
   color: rgb(29, 32, 38);
   font-family: Kumbh Sans;
@@ -130,6 +176,9 @@
   line-height: 16px;
   letter-spacing: 0px;
   text-align: center;
+}
+.hero .minus {
+  cursor: pointer;
 }
 .hero__cart__btn {
   padding: 18px 77px;
@@ -144,4 +193,8 @@
   text-align: left;
   display: flex;
   gap: 16px;
+  transition: all 0.4s linear;
+}
+.hero__cart__btn:hover {
+  background-color: rgb(244, 3, 3);
 }/*# sourceMappingURL=style.css.map */
